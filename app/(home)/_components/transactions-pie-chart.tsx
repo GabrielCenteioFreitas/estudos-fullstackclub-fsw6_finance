@@ -67,12 +67,12 @@ export const TransactionsPieChart = ({
               data={chartData}
               dataKey="amount"
               nameKey="type"
-              innerRadius={60}
+              innerRadius={55}
             />
           </PieChart>
         </ChartContainer>
 
-        <div className="space-y-2">
+        <div className="space-y-4">
           <PercentageItem
             icon={<TrendingUpIcon size={16} className="text-primary" />}
             title="Receita"
