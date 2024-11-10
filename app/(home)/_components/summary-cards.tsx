@@ -45,7 +45,7 @@ export const SummaryCards = async ({
 
         <SummaryCard
           icon={
-            <div className="flex items-center justify-center rounded-lg bg-primary-15 p-2.5">
+            <div className="flex items-center justify-center rounded-lg bg-primary/15 p-2.5">
               <TrendingUpIcon size={16} className="text-primary" />
             </div>
           }

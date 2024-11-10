@@ -11,7 +11,7 @@ export const TransactionTypeBadge = ({
 }: TransactionTypeBadgeProps) => {
   if (transaction.type === TransactionType.DEPOSIT) {
     return (
-      <Badge className="bg-primary-15 font-bold text-primary hover:bg-primary">
+      <Badge className="bg-primary/15 font-bold text-primary hover:bg-primary">
         <CircleIcon className="mr-2 fill-primary" size={10} />
         Depósito
       </Badge>
